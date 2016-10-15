@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{8d7e48a8-66c9-490c-a27d-cae4ef42063e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{198d4d89-3399-4cb0-8c3e-bf9982d0c4a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auxfun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConversionTables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicDataStructs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProteinSequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoSpectrum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoFragments.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviousPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaPreviousPoint.cuh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DPkernel.cuh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionalPTM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaKernel.cuh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle.cuh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHandle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterProtein.cuh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="auxfun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConversionTables.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BasciDataStructs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProteinSequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PTM_stuff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoFragments.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoSpectrum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Handle.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+    <CudaCompile Include="DeltaPreviousPoint.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+    <CudaCompile Include="DPkernel.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+    <CudaCompile Include="DeltaKernel.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Main.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+    <CudaCompile Include="FilterProtein.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

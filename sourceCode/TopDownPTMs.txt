@@ -1,0 +1,16 @@
+# Fixed PTMs
+#AA   		offset      	type    	locs	symbol  PTM name
+C    		57.021464   	FIXED   	ALL    	CAM    	Carbamidomethyl
+
+# Optional PTMs
+A,R,D,C,Q,E,H,I,G,N,L,K,M,F,P,S,T,W,Y,V   	15.994915 	OPTIONAL 	ALL 	oxi 	Oxidation
+A,R,D,C,Q,E,H,I,G,N,L,K,M,F,P,S,T,W,Y,V  31.989829       OPTIONAL 	ALL     dioxi   Dioxidation
+A,R,D,C,Q,E,H,I,G,N,L,K,M,F,P,S,T,W,Y,V  		42.010565 	OPTIONAL 	ALL 	acet 	Acetylation
+A,R,D,C,Q,E,H,I,G,N,L,K,M,F,P,S,T,W,Y,V   	14.015650   	OPTIONAL 	ALL 	met 	Methylation
+A,R,D,C,Q,E,H,I,G,N,L,K,M,F,P,S,T,W,Y,V		28.0313		OPTIONAL 	ALL 	2met 	Double_Methylation
+A,R,D,C,Q,E,H,I,G,N,L,K,M,F,P,S,T,W,Y,V		79.966331  	OPTIONAL  	ALL  	phos   	Phosphorylation
+
+# Terminal PTMs
+N_TERM 		42.010565  	OPTIONAL  	N_TERM  n-acet  N-Acetylation
+
+
